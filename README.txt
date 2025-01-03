@@ -1,4 +1,6 @@
-Thank you for downloading my UTAU to DiffSinger conversion helper! Full disclosure, the scripts were created using a mix of ChatGPT and Google Gemini.
+UTAU to DiffSinger Helper
+
+Full disclosure, the scripts were created using a mix of ChatGPT and Google Gemini.
 
 This tool will do two things for you:
 
