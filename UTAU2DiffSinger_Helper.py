@@ -27,7 +27,7 @@ def main():
         print("Pandas not found. Installing...")
         install_pandas()
 
-    choice = input("Do you want to convert filenames from Hiragana to Romaji? (y/n): ")
+    choice = input("Do you want to convert filenames from Hiragana to Romaji and/or remove any unneeded files? (y/n): ")
     if choice.lower() == "y":
         run_script(r"scripts\Hiragana2Romaji.py")
 
