@@ -33,7 +33,7 @@ There's one requirement needed for this tool which is "pandas", which is require
 
 Do NOT run this script on your original folder of UTAU recordings because it will delete all files that aren't wav, as well as potentially rename them if you use that function and it does NOT create backups so any changes made will be PERMANENT. This also goes for the index.csv, should you choose that option, as it will add an extra row at the top.
 
-#How to use the renamer
+# How to use the renamer
 
 If you choose to use the filenames I HIGHLY recommend that you use Hiragana filenames for Japanese voicebanks and use the converter as this keeps n and N separate, as well as converts glottal stops and vocal fries to the most commonly used phonemes. If you use filenames that were already romaji you'll have to edit the vowel N in the filenames to be uppercase, ・ and ' are converted using the renamer regardless of whether it is hiragana or romaji so I advise using that anyway (or edit the filenames yourself). If you have any non-standard hiragana in your filenames you may need to define them in the Hiragana2Romaji.py file under the hiragana_mapping, but I did try and add as many as I could find (no katakana).
 
@@ -82,3 +82,4 @@ This ensures that it's using the SOFA Model for the language you need, NoneG2P a
 Once that's done just fix up the label files and you're ready to train!
 
 Thank you for using this tool!
+
